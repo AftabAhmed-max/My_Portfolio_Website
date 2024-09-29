@@ -11,7 +11,7 @@ html , body {
 header {
   position: fixed;
   top: 0;
-  height: 12rem;
+  height: 11rem;
   width: 100%;
   background-color: #000;
   border-bottom-left-radius: 5rem;
@@ -168,15 +168,35 @@ main {
   
 }
 
-.description p {
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.summary p {
   margin: 0;
-  padding: 0;
-  font-size: 2.2rem;
-  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 0.1rem solid #b785f8;
+  border-radius: 1rem;
+  padding: 1.7rem;
+  color:#fff;
+  background-color: #A259FF;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0.5rem 0.5rem  0 #000;
+}
+
+.summary p:hover {
+  transform: translate(-2px, -2px) scale(1); 
+  box-shadow: 0.8rem 0.8rem 0 #000;
 }
 
 .description button {
-  margin-top: 3rem;
+  margin-top: 2rem;
   background-color: #FFDD55;
   color: black;
   font-family: 'Chewy', cursive;
@@ -230,7 +250,7 @@ main {
 .social-icons {
   position: absolute;
   top: 40%;
-  right: 15rem;
+  right: 17rem;
   display: flex;
   flex-direction: column;
   transform: translateY(-50%);
@@ -280,7 +300,7 @@ main {
 footer {
   position: fixed;
   bottom: 0;
-  height: 10rem;
+  height: 9rem;
   width: 100%;
   background-color: #000;
   border-top-left-radius: 5rem;

@@ -1,0 +1,118 @@
+main {
+  margin-top: 10rem;
+  padding: 0;
+}
+
+.qualification {
+  position: relative;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  background-color: #0ACF83;
+  height: 57rem;
+  width: 130rem;
+  border-radius: 2rem;
+  transition: border 0.8s ease;
+}
+
+.education {
+  margin-top: 1rem;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.education h2{
+  position: absolute;
+  top: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+  background-color: #FFDD55;
+  font-size: 2rem ;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 0.4rem 0.4rem  0 #000;
+}
+
+.degree , .hsc , .ssc {
+  margin: 6rem 0 0 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 0.1rem solid #b785f8;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color:#fff;
+  background-color: #A259FF;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0.5rem 0.5rem  0 #000;
+}
+
+.degree:hover , .hsc:hover , .ssc:hover {
+  transform: translate(-2px, -2px) scale(1); 
+  box-shadow: 0.8rem 0.8rem 0 #000;
+}
+
+.degree , .hsc , .ssc{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1.5rem;
+}
+
+.degree p , .hsc p , .ssc p  {
+  margin: 0;
+  padding: 0;
+}
+
+.degree p span , .hsc p span , .ssc p span{
+  color: #000;
+}
+
+.extra  {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.extra h2{
+  position: absolute;
+  top: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+  background-color: #FFDD55;
+  font-size: 2rem ;
+  padding: 1rem 2rem;
+  width: 16rem;
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0.4rem 0.4rem  0 #000;
+}
+
+.points ul{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.8rem;
+  font-size: 1.6rem;
+  margin-top: 4.8rem;
+}
+
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 8rem;
+  display: flex;
+  flex-direction: column;
+}
